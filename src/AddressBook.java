@@ -18,6 +18,10 @@ public class AddressBook
         buddyInfoList.remove(buddyInfo);
     }
 
+    public ArrayList<BuddyInfo> getBuddyList(){
+        return this.buddyInfoList;
+    }
+
     public static void main(String[] args) {
         System.out.println("AddressBook");
         BuddyInfo buddy = new BuddyInfo("Bob", "Carleton", "1234");
