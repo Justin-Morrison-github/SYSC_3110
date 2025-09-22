@@ -2,7 +2,7 @@ import java.util.ArrayList;
 
 /*
     Comment to test git pull
-/*
+*/
 public class AddressBook
 {
     private ArrayList<BuddyInfo> buddyInfoList;
